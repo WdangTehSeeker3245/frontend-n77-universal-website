@@ -1,5 +1,7 @@
 import { Component } from 'react'
 import '../styles/Header.sass'
+import LinuxBird from '../assets/icon/linux-bird.png'
+import Application from '../assets/icon/application.png';
 
 export default class MyHeader extends Component {
   constructor(props: {} | Readonly<{}>) {
@@ -20,10 +22,10 @@ export default class MyHeader extends Component {
         <div className="menu-con mx-auto">
           <div className="grid md:grid-cols-2 sm:grid-cols-1 gap-4">
             <div className="my-3">
-              <a href="#linux"><img className="menu-icon mx-auto" src="https://freepngimg.com/thumb/penguin/75896-tux-racer-linux-penguin-free-clipart-hq.png" alt="linux" /></a>
+              <a href="#linux"><img className="menu-icon mx-auto" src={LinuxBird} alt="linux" /></a>
             </div>
             <div className="my-3">
-              <a href="#application"><img className="menu-icon mx-auto" src="https://cdn-icons-png.flaticon.com/512/226/226904.png" alt="application" /></a>
+              <a href="#application"><img className="menu-icon mx-auto" src={Application} alt="application" /></a>
             </div>
           </div>
           

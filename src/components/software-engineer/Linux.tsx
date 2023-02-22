@@ -51,7 +51,7 @@ export default class Linux extends Component {
                 </h5>
                 <img src={ImgFedora} className="item-logo" alt="Logo Ubuntu" />
                 <p className="font-normal text-gray-700 dark:text-gray-400">
-                Testing and Lead Linux Distro That Sponsored by Red Hat. Actively Maintained by Linus Torval. Most updated and secure linux for desktop and workstation.But it require more effort and tool to make it as server rather than rocky linux. 
+                Testing and Lead Linux Distro Sponsored by Red Hat. Actively Maintained by Linus Torval. Most updated and secure Linux for desktops and workstations. But it requires more effort and tools to make it a server rather than rocky Linux. 
                 </p>
                 <Button onClick={this.linkFedora} style={{backgroundColor:"#FF9900",borderRadius:"0px"}}>
                 Download
@@ -78,7 +78,7 @@ export default class Linux extends Component {
                 </h5>
                 <img src={ImgDebian} className="item-logo" alt="Logo Ubuntu" />
                 <p className="font-normal text-gray-700 dark:text-gray-400">
-                Linux Mint secondary project that prepared to Replace dependency against ubuntu development policy. it say future linux mint is not based on ubuntu anymore. and more hard to customize or hardened 
+                Linux Mint secondary project that prepared to replace dependency against Ubuntu development policy. it says future Linux Mint is not based on ubuntu anymore, and harder to customize or hardened rock operating system. hardened rock mean it is not too secure, but still have minimal cyber defence for new Linux user. 
                 </p>
                 <Button onClick={this.linkDebian} style={{backgroundColor:"#FF9900",borderRadius:"0px"}}>
                 Download
@@ -134,7 +134,7 @@ export default class Linux extends Component {
                 </h5>
                 <img src={ImgUbuntu} className="item-logo" alt="Logo Ubuntu" />
                 <p className="font-normal text-gray-700 dark:text-gray-400">
-                Branch of Debian Linux Distribution That Sponsored by Canonical. Known by it user-friendly and Keep up pace with Developer Channel Requirement
+                Branch of Debian Linux Distribution Sponsored by Canonical. Known for it user-friendly and keeping up pace with developer channel requirements
                 </p>
                 <Button onClick={this.linkXubuntu} style={{backgroundColor:"#FF9900",borderRadius:"0px"}}>
                 Download
@@ -161,7 +161,7 @@ export default class Linux extends Component {
                 </h5>
                 <img src={ImgArchlinux} className="item-logo" alt="Logo Ubuntu" />
                 <p className="font-normal text-gray-700 dark:text-gray-400">
-                Linux that inspired by crux simplicty and gentoo linux modularity. a sword that good as sandbox and boxing ground of lab geek guys in virtual world. a freedom of customization in otherway beside void linux and gnu linux.
+                Linux inspired by CRUX simplicity and Gentoo Linux modularity. a sword that is good as a sandbox and boxing ground for lab geek guys in a virtual world. freedom of customization in another way besides Void Linux and GNU Linux.
                 </p>
                 <Button onClick={this.linkArchlinux} style={{backgroundColor:"#FF9900",borderRadius:"0px"}}>
                 Download

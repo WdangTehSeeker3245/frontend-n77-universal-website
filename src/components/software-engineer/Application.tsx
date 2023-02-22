@@ -10,6 +10,9 @@ import MonoDev from '../../assets/application/monodevelop.png'
 import QtCreator from '../../assets/application/qt-creator.png'
 import Veracrypt from '../../assets/application/veracrypt.png'
 
+// My Application
+import N77Logo from '../../assets/myapplication/N77.png'
+
 export default class Application extends Component {
   constructor(props: {} | Readonly<{}>) {
     super(props);
@@ -55,42 +58,55 @@ export default class Application extends Component {
     window.location.replace("https://www.veracrypt.fr/en/Downloads.html")
   }
 
+  // My Application
+
+  linkDimmerApp() {
+    window.location.replace("https://github.com/WdangTehSeeker3245/windows-brightness-controller/releases")
+  }
+
   render() {
     return (
       <div id="application" className="application-con">
         <h2 className="uppercase text-center font-semibold text-xl mb-3 text-stone-300">Application Share</h2>
         <hr className="my-3" />
         <div onClick={this.linkVscode} className="item-app-list mx-auto my-2">
-          <img className="item-app-icon" src={VsCode} alt="vscode icon" />
+          <img className="item-app-icon" src={VsCode}  />
           <p className="item-app-label">Vscode</p>
         </div>
         <div onClick={this.linkFlathub} className="item-app-list mx-aut my-2">
-          <img className="item-app-icon" src={FlatHub} alt="vscode icon" />
+          <img className="item-app-icon" src={FlatHub}  />
           <p className="item-app-label">Flathub Store</p>
         </div>
         <div onClick={this.linkFirefoxDev} className="item-app-list mx-auto my-2">
-          <img className="item-app-icon" src={FirefoxDev} alt="vscode icon" />
+          <img className="item-app-icon" src={FirefoxDev}  />
           <p className="item-app-label">Firefox for Developer</p>
         </div>
         <div onClick={this.linkChromeDev} className="item-app-list mx-auto my-2">
-          <img className="item-app-icon" src={ChromeDev} alt="vscode icon" />
+          <img className="item-app-icon" src={ChromeDev}  />
           <p className="item-app-label">Chrome for Developer</p>
         </div>
         <div onClick={this.linkMsEdge} className="item-app-list mx-auto my-2">
-          <img className="item-app-icon" src={MsEdge} alt="vscode icon" />
+          <img className="item-app-icon" src={MsEdge}  />
           <p className="item-app-label">Microsoft Edge</p>
         </div>
         <div onClick={this.linkMonoDev} className="item-app-list mx-auto my-2">
-          <img className="item-app-icon" src={MonoDev} alt="vscode icon" />
+          <img className="item-app-icon" src={MonoDev}  />
           <p className="item-app-label">Mono Develop IDE</p>
         </div>
         <div onClick={this.linkQtCreator} className="item-app-list mx-auto my-2">
-          <img className="item-app-icon" src={QtCreator} alt="vscode icon" />
+          <img className="item-app-icon" src={QtCreator}  />
           <p className="item-app-label">Qt Creator</p>
         </div>
         <div onClick={this.linkVeracrypt} className="item-app-list mx-auto my-2">
-          <img className="item-app-icon" src={Veracrypt} alt="vscode icon" />
+          <img className="item-app-icon" src={Veracrypt}  />
           <p className="item-app-label">Veracrypt</p>
+        </div>
+        <hr className="my-3 text-blue-300" />
+        <h2 className="uppercase text-center font-semibold text-xl mb-3 text-stone-300">My Application Share</h2>
+        <hr className="my-3 text-blue-300" />
+        <div onClick={this.linkDimmerApp} className="item-app-list mx-auto my-2">
+          <img className="item-app-icon" src={N77Logo} alt="vscode icon" />
+          <p className="item-app-label">Windows Dimmer App</p>
         </div>
       </div>
        
